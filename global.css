@@ -1,0 +1,40 @@
+h1 {
+   margin: 16px;
+   text-align: center;
+}
+
+body{
+   color: rgba(81, 62, 62, 1);
+   background-color: rgba(225, 172, 172, 0.97);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+}
+
+header {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.header-div {
+   border: pink 5px solid;
+   margin: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.S1 {
+   font-size: xx-large;
+   color: rgb(255, 225, 230);
+}
+
+th {
+   border: 5px pink solid;
+}
+
+td{
+   border: 5px pink solid;
+}
