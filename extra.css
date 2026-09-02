@@ -1,0 +1,32 @@
+#gem {
+    min-height: 80dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 6%;
+
+    background-image: url(./Tribute\ Website\ Photos/crystal_temple.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#future {
+    min-height: 80dvh;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 6%;
+
+    background-image: url(./Tribute\ Website\ Photos/SU_future.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
