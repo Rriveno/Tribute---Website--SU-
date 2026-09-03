@@ -7,13 +7,9 @@ h2 {
    font-size: large ;
 }
 
-body{
-   color: rgba(81, 62, 62, 1);
-   background-color: rgba(225, 172, 172, 0.97);
-   display: flex;
-   justify-content: center;
-   text-align: center;
-}
+/* body{
+
+} */
 
 header {
    display: flex;
@@ -28,7 +24,7 @@ header {
    /* justify-content: center; */
    text-align: center;
    color: rgb(0, 0, 0);
-   font-size: 3.5dvh;
+   font-size: 4dvh;
 }
 
 .S1 {
@@ -52,7 +48,7 @@ header {
 }
 
 .white_diamond {
-   color: rgb(35, 34, 34);
+   color: rgb(255, 255, 255);
 }
 
 th {

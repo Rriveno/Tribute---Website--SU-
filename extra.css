@@ -7,7 +7,7 @@
 
     padding: 6%;
 
-    background-image: url(./Tribute\ Website\ Photos/crystal_temple.jpg);
+    background-image: url(./tribute_website_photos/The_crystal_gems.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,18 +15,82 @@
     opacity: 0.8;
 }
 
-#future {
+#present {
     min-height: 80dvh;
-
-    display: flex;
     align-items: center;
     justify-content: flex-end;
 
     padding: 6%;
 
-    background-image: url(./Tribute\ Website\ Photos/SU_future.jpg);
+    background-image: url(./tribute_website_photos/SU_Season_One.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#movie {
+    min-height: 80dvh;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 6%;
+
+    background-image: url(./tribute_website_photos/gem_war.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#war {
+    min-height: 80dvh;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 6%;
+
+    background-image: url(./tribute_website_photos/gem_war.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#future {
+    min-height: 80dvh;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 6%;
+
+    background-image: url(./tribute_website_photos/SU_future.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #121212;
+    margin: 2dvi;
+    background-color: pink;
+}
+
+nav {
+    max-height: 8dvh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 
+}
+
+body {
+    background-color: pink;
 }
