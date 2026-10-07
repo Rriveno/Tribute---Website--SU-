@@ -36,7 +36,7 @@
 
     padding: 6%;
 
-    background-image: url(./tribute_website_photos/gem_war.jpg);
+    background-image: url(./tribute_website_photos/SU_movie.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,7 +88,6 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 
 }
 
 body {
