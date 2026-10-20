@@ -20,3 +20,29 @@ nav {
 body {
     background-color: pink;
 }
+
+#character-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ff00ee;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.character-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.character-description {
+    background-color: pink;
+    font-size: 30px;
+    align-self: center;
+}
+
+.char-image {
+    height: 50%;
+}
