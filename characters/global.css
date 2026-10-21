@@ -41,6 +41,7 @@ body {
     background-color: pink;
     font-size: 30px;
     align-self: center;
+    border-radius: 10px;
 }
 
 .char-image {
