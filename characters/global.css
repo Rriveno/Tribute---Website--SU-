@@ -5,45 +5,95 @@
 
     color: #121212;
     margin: 2dvi;
-    background-color: pink;
+    background-color: #ffc0cb;
+    
+    transition: 0.5s ease-in-out;
 }
 
 nav {
-    max-height: 8dvh;
-
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 body {
-    background-color: pink;
+    background-color: #ffc0cb;
 }
 
 #character-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     background-color: #ff00ee;
-    margin: 50px;
-    border-radius: 20px;
-}
-
-.character-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     text-align: center;
 }
 
+.char-image,
 .character-description {
-    background-color: pink;
-    font-size: 30px;
+    border: 5px solid #FFc0cb;
     align-self: center;
-    border-radius: 10px;
 }
 
 .char-image {
-    height: 50%;
+    width: 80%;
+}
+
+.character-div {
+    background: #FF00EE;
+    background: linear-gradient(180deg, rgba(255, 0, 238, 1) 0%, rgba(255, 192, 203, 1) 70%);
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.character-div-dif {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(360deg, rgba(255, 0, 238, 1) 0%, rgba(255, 192, 203, 1) 70%);
+}
+
+@media (min-width: 1024px) {
+    
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-link:hover {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+    }
+
+    .char-image,
+    .character-description {
+        border: none;
+    }
+    
+    #character-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #ff00ee;
+        margin: 50px;
+        border-radius: 20px;
+    }
+
+    .character-div,
+    .character-div-dif {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .character-description {
+        background-color: pink;
+        font-size: 30px;
+        align-self: center;
+        border-radius: 10px;
+    }
+
+    .char-image {
+        height: 50%;
+    }
 }

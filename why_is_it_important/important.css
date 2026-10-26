@@ -6,6 +6,8 @@
     color: #121212;
     margin: 2dvi;
     background-color: pink;
+    
+    transition: 0.5s ease-in-out;
 }
 
 nav {
@@ -15,6 +17,14 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+/* NAV HOVERS */
+
+.nav-link:hover {
+    font-size: 2rem;
+    background-color: #ffd1d9;
+    margin: 10px;
 }
 
 body {
