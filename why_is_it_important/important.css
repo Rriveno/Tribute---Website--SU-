@@ -11,22 +11,117 @@
 }
 
 nav {
-    max-height: 8dvh;
-
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}
-
-/* NAV HOVERS */
-
-.nav-link:hover {
-    font-size: 2rem;
-    background-color: #ffd1d9;
-    margin: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;    
+    background-color: pink;   
 }
 
 body {
     background-color: pink;
+}
+
+.titleImportant {
+    font-size: 2.5rem;
+    justify-self: center;
+}
+
+.topImportant {
+    width: 50%;
+    font-size: 2rem;
+    justify-self: center;
+}
+
+#war {
+    height: 15rem;
+    justify-self: center;
+}
+
+.topBox {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+    border: 5px solid rgb(255, 157, 173);
+    padding: 1rem;
+    background-color: rgb(255, 130, 151);
+}
+
+.imageTop {
+    align-self: center;
+}
+
+#middleSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#leftBox,
+#middleBox,
+#rightBox {
+    border: 5px solid rgb(255, 157, 173);
+    margin: 1.5rem;
+    width: 85%;
+    background-color: rgb(255, 130, 151);
+    padding: 1.75rem;
+    text-align: -webkit-center;
+}
+
+.boxTitle {
+    width: 100%;
+    font-size: 2rem;
+}
+
+.boxDesc {
+    width: 100%;
+    font-size: 1.9rem;
+}
+
+@media (min-width: 1024px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;    
+        background-color: pink;   
+    }
+
+    .nav-link:hover {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+    }
+    .nav-link:focus-visible {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+        border-radius: 15px;
+        outline-offset: 2px;
+    }
+
+    .topBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #middleSection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #leftBox,
+    #middleBox,
+    #rightBox {
+        width: 100%;
+    }
 }

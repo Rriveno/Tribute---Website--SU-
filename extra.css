@@ -22,11 +22,7 @@
 
     padding: 6%;
 
-    background-image: url(./tribute_website_photos/SU_Season_One.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #movie {
@@ -36,11 +32,7 @@
 
     padding: 6%;
 
-    background-image: url(./tribute_website_photos/SU_movie.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #war {
@@ -50,11 +42,7 @@
 
     padding: 6%;
 
-    background-image: url(./tribute_website_photos/gem_war.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 #future {
@@ -64,11 +52,7 @@
 
     padding: 6%;
 
-    background-image: url(./tribute_website_photos/SU_future.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .nav-link {
@@ -84,13 +68,11 @@
 }
 
 nav {
-    max-height: 8dvh;
-
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-}/* NAV HOVERS */
+}
 
 .nav-link:hover {
     font-size: 2rem;
@@ -100,4 +82,32 @@ nav {
 
 body {
     background-color: pink;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;    
+        background-color: pink;    
+    }
+
+    .nav-link:hover {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+    }
+
+    .nav-link:focus-visible {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+        border-radius: 15px;
+        outline-offset: 2px;
+    }
 }

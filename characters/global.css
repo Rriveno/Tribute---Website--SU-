@@ -56,12 +56,25 @@ body {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;    
+        background-color: pink;   
     }
 
     .nav-link:hover {
         font-size: 2rem;
         background-color: #ffd1d9;
         margin: 10px;
+    }
+
+    .nav-link:focus-visible {
+        font-size: 2rem;
+        background-color: #ffd1d9;
+        margin: 10px;
+        border-radius: 15px;
+        outline-offset: 2px;
     }
 
     .char-image,
