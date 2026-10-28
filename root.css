@@ -1,0 +1,15 @@
+:root {
+   --primary-color: pink;
+   --pink: pink;
+   --black: black;
+   --pink-light: #ffe1e6;
+   --light-pink: #ffc0cb;
+   --lighter-pink: #ffd1d9;
+   --pink-dark: rgb(255, 157, 173);
+   --pink-darker: rgb(255, 130, 151);
+   --dark-pink: #ff00ee;
+   --blue: blue;
+   --yellow: yellow;
+   --white: white;
+   --dark-gray: #121212;
+}

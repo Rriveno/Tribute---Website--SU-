@@ -62,7 +62,7 @@
 
     color: #121212;
     margin: 2dvi;
-    background-color: pink;
+    background-color: var(--pink);
     
     transition: 0.5s ease-in-out;
 }
@@ -76,12 +76,12 @@ nav {
 
 .nav-link:hover {
     font-size: 2rem;
-    background-color: #ffd1d9;
+    background-color: var(--pink-light);
     margin: 10px;
 }
 
 body {
-    background-color: pink;
+    background-color: var(--pink);
 }
 
 @media (min-width: 1024px) {
@@ -94,18 +94,18 @@ body {
         top: 0;
         z-index: 1000;
         width: 100%;    
-        background-color: pink;    
+        background-color: var(--pink);    
     }
 
     .nav-link:hover {
         font-size: 2rem;
-        background-color: #ffd1d9;
+        background-color: var(--pink-light);
         margin: 10px;
     }
 
     .nav-link:focus-visible {
         font-size: 2rem;
-        background-color: #ffd1d9;
+        background-color: var(--pink-light);
         margin: 10px;
         border-radius: 15px;
         outline-offset: 2px;

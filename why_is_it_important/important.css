@@ -3,9 +3,9 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    color: #121212;
+    color: var(--dark-gray);
     margin: 2dvi;
-    background-color: pink;
+    background-color: var(--pink);
     
     transition: 0.5s ease-in-out;
 }
@@ -19,11 +19,11 @@ nav {
     top: 0;
     z-index: 1000;
     width: 100%;    
-    background-color: pink;   
+    background-color: var(--pink);   
 }
 
 body {
-    background-color: pink;
+    background-color: var(--pink);
 }
 
 .titleImportant {
@@ -37,37 +37,39 @@ body {
     justify-self: center;
 }
 
-#war {
-    height: 15rem;
+#end {
     justify-self: center;
+    width: 93%;
 }
 
 .topBox {
     display: flex;
     flex-direction: column;
     margin: 1.5rem;
-    border: 5px solid rgb(255, 157, 173);
+    border: 5px solid var(--pink-dark);
     padding: 1rem;
-    background-color: rgb(255, 130, 151);
+    background-color: var(--pink-darker);
 }
 
 .imageTop {
     align-self: center;
+    text-align: center;
 }
 
 #middleSection {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #leftBox,
 #middleBox,
 #rightBox {
-    border: 5px solid rgb(255, 157, 173);
+    border: 5px solid var(--pink-dark);
     margin: 1.5rem;
     width: 85%;
-    background-color: rgb(255, 130, 151);
+    background-color: var(--pink-darker);
     padding: 1.75rem;
     text-align: -webkit-center;
 }
@@ -93,20 +95,20 @@ body {
         top: 0;
         z-index: 1000;
         width: 100%;    
-        background-color: pink;   
+        background-color: var(--pink);   
     }
 
-    .nav-link:hover {
-        font-size: 2rem;
-        background-color: #ffd1d9;
-        margin: 10px;
-    }
+    .nav-link:hover,
     .nav-link:focus-visible {
         font-size: 2rem;
-        background-color: #ffd1d9;
+        background-color: var(--pink-light);
         margin: 10px;
         border-radius: 15px;
         outline-offset: 2px;
+    }
+
+    #end {
+        width: 25rem;
     }
 
     .topBox {

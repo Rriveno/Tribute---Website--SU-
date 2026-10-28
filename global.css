@@ -8,7 +8,7 @@ h2 {
 }
 
 .explain {
-   color: pink;
+   color: var(--primary-color);
 }
 
 header {
@@ -17,13 +17,12 @@ header {
 }
 
 .header-div {
-   border: pink 5px solid;
+   border: var(--primary-color) 5px solid;
    margin: 8px;
    display: flex;
    flex-direction: column;
-   /* justify-content: center; */
    text-align: center;
-   color: rgb(0, 0, 0);
+   color: var(--black);
    font-size: 4dvh;
 }
 
@@ -33,30 +32,30 @@ header {
 
 .S1 {
    font-size: xx-large;
-   color: rgb(255, 225, 230);
+   color: var(--pink-light);
 }
 .dramatic {
    font-size: x-large;
 }
 
 .pink_diamond {
-   color:rgb(255, 157, 173)
+   color:var(--pink-dark);
 }
 
 .blue_diamond {
-   color:blue
+   color:var(--blue);
 }
 
 .yellow_diamond {
-   color: yellow;
+   color: var(--yellow);
 }
 
 .white_diamond {
-   color: rgb(255, 255, 255);
+   color: var(--white);
 }
 
 th,
 td {
-   border: 5px pink solid;
-   color: white;
+   border: 5px var(--pink) solid;
+   color: var(--white);
 }
